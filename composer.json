@@ -1,0 +1,14 @@
+{
+  "name": "sayla/console-helper",
+  "description": "Framework agnostic data objects and helpers",
+  "require": {
+    "php": ">=7",
+    "sayla/utils": "*",
+    "illuminate/contracts": ">=5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sayla\\Helper\\Console\\": "src"
+    }
+  }
+}
